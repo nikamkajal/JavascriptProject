@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right,aliceblue,blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.counter{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+h2{
+    font-size: 34px;
+    color: blue;
+}
+.zero p{
+    font-size: 55px;
+}
+.op button
+{
+    font-size: 28px;
+    margin: 0px 10px;
+    padding: 5px 18px;
+    border: solid blue 5px;
+    border-radius: 10px;
+    background-color: rgb(204, 204, 222);
+}
